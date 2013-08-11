@@ -22,70 +22,77 @@
  	
  </head>
  <body>
- 	<header>
- 		<a href="index.html">
- 		<img src="images/logo.jpg" alt="Dayton Gay Men's Chours Logo" /></a>
- 		<nav>
- 			<ul>
- 				<li><a href="index.html">home</a></li>
- 				<li><a href="season.html">season</a></li>
- 				<li><a href="join.html">join</a></li>
- 				<li><a href="advertise.html">advertise</a></li>
- 				<li><a href="about.html">about</a></li>
- 				<li><a href="contact.html">contact</a></li>
- 			</ul>
- 		</nav>
- 	</header>
- 	<section>
- 		<h1>Mailing Address</h1>
- 		<p>Dayton Gay Men's Chorus</p>
- 		<p>PO Box 642</p>
- 		<p>Dayton, OH 45401-0642</p>
- 	</section>
-	<section>
-		<h1>Phone</h1>
- 	 	<p>937-530-0642</p>
- 	</section>
- 	<section>
- 		<h1>Contact Us</h1>
- 		<form method="get" action="mailto:mtolson@fullsail.edu">
- 			<label for="type">About</label>
- 			</div>
- 			<div>
- 				<select name="type" id="type">
- 					<option>Advertising</option>
- 					<option>Sponsorships</option>
- 					<option>Memberships</option>
- 					<option>Feedback</option>
- 					<option>Other</option>
- 				</select>	
- 			<div>
- 				<label for="name_first">First Name</label>
- 				<input type="text" name="name_first" id="name_first"/>
- 			</div>
-			<div>
- 				<label for="name_last">Last Name</label>
-				<input type="text" name="name_last" id="name_last"/>
-			</div>
- 			<div>
- 				<label for="email">Email</label>
- 				<input type="text" name="email" id="email"/>
- 			</div>
- 			<div>
- 				<label for="phone">Phone Number</label>
- 				<input type="text" name="phone" id="phone"/>
- 			</div>
- 			<div>
- 				<label for="comment">Comments</label>
- 				<textarea rows="15" cols="50" name="comment" id="comment"></textarea>
- 			</div>
- 			<div>
- 				<input type="checkbox" name="contact_me" id="contact_me"/>
- 				<p>Please add me to your mailing and email lists.</p>
- 			</div>
- 		</form>
- 	</section>	
- 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
- 	<script src="js/scripts.js"></script>
+ 	<div class="container">
+	 	<header>
+	 		<a href="index.html" class="grid_3">
+	 		<img src="images/logo.jpg" alt="Dayton Gay Men's Chours Logo" /></a>
+	 		<nav class="prefix_1 grid_8">
+	 			<ul>
+	 				<li><a href="index.html">home</a></li>
+	 				<li><a href="season.html">season</a></li>
+	 				<li><a href="join.html">join</a></li>
+	 				<li><a href="advertise.html">advertise</a></li>
+	 				<li><a href="about.html">about</a></li>
+	 				<li><a href="contact.html">contact</a></li>
+	 			</ul>
+	 		</nav>
+	 	</header>
+	 	<div class="grid_12">
+		 	<section class="grid_8 suffix_1 alpha">
+		 		<h1>Contact Us</h1>
+		 		<form method="get" action="mailto:mtolson@fullsail.edu">
+		 			<div class="grid_8">
+		 				<label for="type" class="grid_8">About</label>
+		 			</div>
+		 			<div class="grid_8">
+		 				<select name="type" id="type" class="grid_8">
+		 					<option>Advertising</option>
+		 					<option>Sponsorships</option>
+		 					<option>Memberships</option>
+		 					<option>Feedback</option>
+		 					<option>Other</option>
+		 				</select>	
+		 			<div>
+		 				<label for="name_first" class="grid_8">First Name</label>
+		 				<input type="text" name="name_first" id="name_first" class="grid_8 "/>
+		 			</div>
+					<div>
+		 				<label for="name_last" class="grid_8">Last Name</label>
+						<input type="text" name="name_last" id="name_last" class="grid_8" />
+					</div>
+		 			<div>
+		 				<label for="email" class="grid_8">Email</label>
+		 				<input type="text" name="email" id="email" class="grid_8" />
+		 			</div>
+		 			<div>
+		 				<label for="phone" class="grid_8">Phone Number</label>
+		 				<input type="text" name="phone" id="phone" class="grid_8" />
+		 			</div>
+		 			<div>
+		 				<label for="comment" class="grid_8">Comments</label>
+		 				<textarea rows="15" cols="50" name="comment" id="comment" class="grid_8"></textarea>
+		 			</div>
+		 			<div>
+		 				<input type="checkbox" name="contact_me" id="contact_me" class="grid_1 alpha" />
+		 				<p class="grid_7 omega">Please add me to your mailing and email lists.</p>
+		 			</div>
+		 		</form>
+		 	</section>
+		 	<div class="grid_3 omega">
+			 	<section>
+			 		<h1>Mailing Address</h1>
+			 		<p>Dayton Gay Men's Chorus</p>
+					<p>PO Box 642</p>
+		 			<p>Dayton, OH 45401-0642</p>
+		 		</section>
+			 	<section>
+			 		<h1>Phone</h1>
+			 		 	<p>937-530-0642</p>
+			 	</section>
+			 </div>
+		</div>
+	 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	 	<script src="js/scripts.js"></script>
+ 	</div>
  </body>
  </html> 
