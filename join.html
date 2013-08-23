@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
  
- 	<title>Responsive 996 Grid System</title>
+ 	<title>Dayton Gay Men's Chorus</title>
  	<meta name="description" content="">
  	<meta name="author" content="">
  
@@ -17,7 +17,9 @@
  	<link rel="stylesheet" href="css/base.css">
  	<link rel="stylesheet" href="css/grid.css">
  	<link rel="stylesheet" href="css/main.css">
- 
+ 	<link href='http://fonts.googleapis.com/css?family=Mouse+Memoirs' rel='stylesheet' type='text/css'>
+ 	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+ 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
  	<script src="js/modernizr-2.6.2.min.js"></script>
  	
  </head>
@@ -26,22 +28,23 @@
 	 	<header>
 	 		<a href="index.html" class="grid_3">
 	 		<img src="images/logo.jpg" alt="Dayton Gay Men's Chours Logo" /></a>
-	 		<nav class="prefix_1 grid_8">
+	 		<nav class="grid_9">
 	 			<ul>
-	 				<li><a href="index.html">home</a></li>
+	 				<li class="first_nav"><a href="index.html" >home</a></li>
 	 				<li><a href="season.html">season</a></li>
-	 				<li><a href="join.html">join</a></li>
+	 				<li class="active "><a href="join.html">join</a></li>
 	 				<li><a href="advertise.html">advertise</a></li>
 	 				<li><a href="about.html">about</a></li>
 	 				<li><a href="contact.html">contact</a></li>
 	 			</ul>
 	 		</nav>
 	 	</header>
-	 	<section class="grid_12">
-	 		<h1>Joining the Chorus?</h1>
-	 		<p>Thank You! for your interest in the Dayton Gay Men’s Chorus.  We sing a broad range of musical styles from the serious to the sublime…heavy to hysterical. We accept new members at the first three rehearsals in August/September for our Holiday Concert and in January for our Spring Concert.</p>
+	 	<section id="joining">
+	 		<h1 class="grid_12">Joining the Chorus?</h1>
+	 		<img src="images/abba2.jpg" alt="" class="grid_5 alpha"/>
+ 			<p class="grid_7 omega">Thank You! for your interest in the Dayton Gay Men’s Chorus.  We sing a broad range of musical styles from the serious to the sublime…heavy to hysterical. We accept new members at the first three rehearsals in August/September for our Holiday Concert and in January for our Spring Concert.</p>
 	 	</section>
-	 	<div class="grid_12">
+	 	<div id="join"class="grid_12">
 			<section class="grid_4 alpha">
 				<h2>Audition</h2>
 				<p>Our requirements are pretty simple… the ability to sing on pitch, familiarity with musical notation, dedication to the choral arts and the desire to become part of a singing, gay  affirming community (and you don’t even have to be gay).  You will be scheduled for an audition time with our Artistic Director(s) which must be prior to the fourth rehearsal of each concert season.   You may bring a solo piece to sing or just sing a simple song (like My County ‘tis of Thee).  He will test your vocal range to help with section placement and also do some basic pitch matching. If your audition is on a Monday night before rehearsal, you may sit in on rehearsal that night and will be told at the end of rehearsal if you have been accepted.</p>
@@ -92,9 +95,9 @@
 	 				<label for="comment" class="grid_8">Comments</label>
 	 				<textarea rows="15" cols="50" name="comment" id="comment" class="grid_8" ></textarea>
 	 			</div>
-	 			<div>
-	 				<input  class="grid_8" type="checkbox" name="contact_me" id="contact_me"/>
-	 				<p class="grid_8">Please contact me about this opportunity</p>
+	 			<div class="checkbox grid_8">
+	 				<input type="checkbox" name="contact_me" id="contact_me"/>
+	 				<p>Please contact me about this opportunity</p>
 	 			</div>
 	 		</form>
 	 	</section>

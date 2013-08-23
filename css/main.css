@@ -1,12 +1,195 @@
 /* =============================================================================
    Site Styles
    ========================================================================== */
+/******************************Headings******************************/
+h1{
+	font-family: 'Playball', cursive;
+	text-align: center;
+	background-color: #27191f;
+	color: #960b20;
+	font-size: 2em;
+	box-shadow: 0px 7px 5px #444;
+	margin: 10px 2px;
+	
+}
+
+h2{
+	font-family: 'Playball', cursive;
+	text-align: center;
+	background-color: #960b20;
+	color: whitesmoke;
+	font-size: 1.75em;
+	box-shadow: 0px 7px 5px #444;
+	margin: 10px 2px;
+}
+h3{
+	font-family: 'Playball', cursive;
+	text-align: center;
+	color: #960b20;
+	font-size: 1em;
+	margin: 10px 2px;
+}
+
+p{
+	font-family: 'Roboto Slab', serif;
+	margin: 5px;
+	color: #27191f;
+}
+/******************************Nav******************************/
 nav li{
 	display: inline;
+	text-align: center;
+	width: 16%;
+	float: left;
+	border-left: 1px solid white;
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+nav{
+	background-color: #27191f;
+	width: 100%;
+	margin: 63px auto 5px auto;
+	box-shadow: 2px -2px 5px #444;
+}
+nav ul{
+	padding-left: 0;
+	height: 30px;
+	margin: 0;
+}
+.first_nav{
+	border-left: none;
+}
+nav a:link{
+	color: #960b20;
+	text-decoration: none;
+}
+nav a:visited{
+	color: #960b20;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #960b20;
+	text-decoration: none;
+}
+nav a:active{
+	color: white;
+	text-decoration: none;
+}
+.active a:link{
+	color: #fdf9de;
+	text-decoration: none;
+}
+.active a:visited{
+	color: #fdf9de;
+	text-decoration: none;
+}
+.active a:hover{
+	color: #fdf9de;
+	text-decoration: none;
+}
+.active a:active{
+	color: fdf9de;
+	text-decoration: none;
+}
+/******************************form******************************/
+.checkbox{
+	margin-top: 5px;
+}
+.checkbox input{
+	float: left;
+}
+.checkbox p{
+	float: left;
 }
 /* =============================================================================
    Page Styles
    ========================================================================== */
+
+/******************************Home******************************/
+.border_lg{
+	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	height: 307px;
+	border-width: 1.5px;
+}
+.border_md{
+	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	border-width: 1.5px;
+	height: 200px;
+	margin-bottom: 5px;
+}
+.border_sm{
+	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	border-width: 1.5px;
+	height: 100px;
+	margin-bottom: 5px;
+}
+.slider_img{
+	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	border-width: 2px;
+	margin-bottom: 10px;
+	box-shadow: 10px 7px 5px #444;
+}
+.sponsors img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 100px;
+	max-width: 300px;
+}
+#join a{
+	width: 150px;
+	display: block;
+	float: right;
+	margin-right: 25px;
+	margin-top: 20px;
+	background-color: red;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	font-size: 1.25em;
+}
+/******************************Season******************************/
+
+.season{
+	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	border-width: 1.5px;
+	margin-bottom: 5px;
+}
+/******************************About******************************/
+#leadership img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#leadership h1{
+	margin-bottom: 15px;
+}
+
+#leadership p{
+	text-align: center;
+}
+#leadership a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+#leadership div{
+	margin-bottom: 15px;
+}
+/******************************Join******************************/
+#join p{
+	text-align: justify;
+	margin-top: 8px;
+}
+#joining img{
+	border-radius: 25px;
+	margin-left: 15px;
+	margin-top: 8px;
+}
 
 /* =============================================================================
    Media Queries
