@@ -282,8 +282,19 @@ nav li{
 }
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {}
+#logo{
+	display: block;
+	margin: 0 auto;
+}
+.nav{
+	margin: 0;
+}
 
 nav li{
 	width: 44%;
+	border: none;
 	margin: 0 3%;
+}
+nav ul{
+width: 100%;
 }
