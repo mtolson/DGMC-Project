@@ -17,7 +17,7 @@ h2{
 	font-family: 'Playball', cursive;
 	text-align: center;
 	background-color: #960b20;
-	color: whitesmoke;
+	color: #ffffcc;
 	font-size: 1.75em;
 	box-shadow: 0px 7px 5px #444;
 	margin: 10px 2px;
@@ -77,19 +77,19 @@ nav a:active{
 	text-decoration: none;
 }
 .active a:link{
-	color: #fdf9de;
+	color: #ffffcc;
 	text-decoration: none;
 }
 .active a:visited{
-	color: #fdf9de;
+	color: #ffffcc;
 	text-decoration: none;
 }
 .active a:hover{
-	color: #fdf9de;
+	color: #ffffcc;
 	text-decoration: none;
 }
 .active a:active{
-	color: fdf9de;
+	color: #ffffcc;
 	text-decoration: none;
 }
 /******************************form******************************/
@@ -109,23 +109,43 @@ nav a:active{
 /******************************Home******************************/
 .border_lg{
 	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
-	height: 307px;
+	-moz-border-image: url('../images/rainbow_border.png') 1 1 1 1 stretch stretch;
+	-webkit-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	-o-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	border-image: url('../images/rainbow_border.png') 1 1 1 1  *fill* stretch stretch;
+	border-style: solid;
 	border-width: 1.5px;
+	height: 307px;
 }
 .border_md{
 	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	-moz-border-image: url('../images/rainbow_border.png') 1 1 1 1 stretch stretch;
+	-webkit-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	-o-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	border-image: url('../images/rainbow_border.png') 1 1 1 1  *fill* stretch stretch;
+	border-style: solid;
 	border-width: 1.5px;
 	height: 200px;
 	margin-bottom: 5px;
 }
 .border_sm{
 	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	-moz-border-image: url('../images/rainbow_border.png') 1 1 1 1 stretch stretch;
+	-webkit-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	-o-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	border-image: url('../images/rainbow_border.png') 1 1 1 1  *fill* stretch stretch;
+	border-style: solid;
 	border-width: 1.5px;
 	height: 100px;
 	margin-bottom: 5px;
 }
 .slider_img{
 	border-image: url('../images/rainbow_border.png') 1 1 1 1 repeat stretch;
+	-moz-border-image: url('../images/rainbow_border.png') 1 1 1 1 stretch stretch;
+	-webkit-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	-o-border-image: url('../images/rainbow_border.png') 1 1 1 1  stretch stretch;
+	border-image: url('../images/rainbow_border.png') 1 1 1 1  *fill* stretch stretch;
+	border-style: solid;
 	border-width: 2px;
 	margin-bottom: 10px;
 	box-shadow: 10px 7px 5px #444;
@@ -137,7 +157,7 @@ nav a:active{
 	max-height: 100px;
 	max-width: 300px;
 }
-#join a{
+#button{
 	width: 150px;
 	display: block;
 	float: right;
@@ -149,6 +169,17 @@ nav a:active{
 	color: white;
 	border-radius: 5px;
 	font-size: 1.25em;
+}
+
+.a .b .c{
+	float: left;
+}
+.d{
+	float: right;
+}
+
+.b{
+	margin-top: -100px;
 }
 /******************************Season******************************/
 
@@ -197,12 +228,22 @@ nav a:active{
 
 /* Tablet Portrait size to Base 996px */
 @media only screen and (min-width: 768px) and (max-width: 995px) {}
-
+nav{
+	margin-top: 43px;
+}
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {}
+nav li{
+	font-size: 1.4em;
+}
+#joining img{
+	margin-left: 0;
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
-
+nav{
+	margin-top: 0;
+}
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {}
