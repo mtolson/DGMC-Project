@@ -240,9 +240,10 @@ nav a:active{
    ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
 nav{
 	margin-top: 43px;
+}
 }
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {}
@@ -254,7 +255,11 @@ nav li{
 }
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#logo{
+	display: block;
+	margin: 0 auto;
+}
 .nav{
 	margin-top: 0;
 }
@@ -280,8 +285,9 @@ nav li{
 .season{
 	border: 0;
 }
+}
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
 #logo{
 	display: block;
 	margin: 0 auto;
@@ -297,4 +303,5 @@ nav li{
 }
 nav ul{
 width: 100%;
+}
 }
