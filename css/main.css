@@ -35,6 +35,9 @@ p{
 	margin: 5px;
 	color: #27191f;
 }
+#clear{
+	clear: both;
+}
 /******************************Nav******************************/
 nav li{
 	display: inline;
@@ -110,6 +113,7 @@ nav a:active{
 #logo{
 	height: 93px;
 }
+
 /* =============================================================================
    Page Styles
    ========================================================================== */
@@ -221,6 +225,29 @@ nav a:active{
 .b{
 	margin-top: -100px;
 }
+
+#event-date{
+	width: 33%;
+	float: left;
+	margin-bottom: 5px;
+	border-right: 1px solid #333;
+}
+#event-date h3, h4, h5{
+	color: red;
+	font-size: 1.5em;
+	font-family: 'Mouse Memoirs', sans-serif;
+	text-align: center;	
+	margin: 0;
+}
+#event{
+	width: 65%;
+	float: right;
+	margin: 0;
+}
+#event h5{
+	color: black;
+	font-size: 2em;	
+}
 /******************************Season******************************/
 
 .season{
@@ -234,6 +261,10 @@ nav a:active{
 	margin-bottom: 5px;
 }
 /******************************About******************************/
+#mvv{
+	float: left;
+}
+
 #leadership img{
 	display: block;
 	margin-left: auto;
